@@ -11,6 +11,10 @@ public class demo1{
 
 
 		StringBuffer sf2=new StringBuffer();
+	
+		System.out.println("hello world");
+		
+
 
 	}
 }
