@@ -9,6 +9,7 @@ public class demo1{
 
 		StringBuffer sf=new StringBuffer();
 
+
 		StringBuffer sf2=new StringBuffer();
 
 	}
