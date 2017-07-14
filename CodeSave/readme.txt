@@ -6,5 +6,10 @@ public class demo1{
 		int a=0;
 
 		int b=2;
+
+		StringBuffer sf=new StringBuffer();
+
+		StringBuffer sf2=new StringBuffer();
+
 	}
 }
