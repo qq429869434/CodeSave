@@ -9,5 +9,8 @@ git branch
 --合并分支
 git merge +branchName
 --删除分支
- git branch -d +branchName
- --
+git branch -d +branchName
+--带有历史记录的分支
+git merge --no-ff -m "合并描述内容"  dev（合并的分支）
+--bug分支，可以把当前工作的分支先暂存起来，等需要继续工作的时候再恢复
+git stash
