@@ -24,3 +24,7 @@ git stash list
 	git stash pop
 （3）删除指定的暂存任务
 	git stash apply stash@{0}
+--强制删除分支
+git branch -D +branchName
+--查看远程分支
+git remote -v
