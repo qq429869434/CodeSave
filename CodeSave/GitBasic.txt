@@ -7,6 +7,8 @@ git init
 git add +filename
 --提交文件至仓库
 git commit -m "<提交的内容说明>"
+--提交文件夹
+git commit -am "<提交的内容说明>"
 --查看仓库文件状态
 git status
 --查看文件修改内容 没有返回空
@@ -33,3 +35,6 @@ git checkout -- +filename
 --删除版本库的文件
 git rm +filename
 git commit -m "<说明>"
+--删除master分支
+rm -rf .git/
+
