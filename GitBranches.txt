@@ -1,0 +1,30 @@
+--创建并且切换分支
+git checkout -b +branchName
+--创建分支
+git branch +branchName
+--切换分支
+git checkout +branchName
+--查看分支
+git branch
+--合并分支
+git merge +branchName
+--删除分支
+git branch -d +branchName
+--带有历史记录的分支
+git merge --no-ff -m "合并描述内容"  dev（合并的分支）
+--bug分支，可以把当前工作的分支先暂存起来，等需要继续工作的时候再恢复
+git stash
+--显示暂存工作清单
+git stash list
+--恢复暂存工作
+（1）恢复和删除
+	git stash apply
+	git stash drop
+（2）恢复并删除
+	git stash pop
+（3）删除指定的暂存任务
+	git stash apply stash@{0}
+--强制删除分支
+git branch -D +branchName
+--查看远程分支
+git remote -v
