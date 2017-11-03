@@ -1,4 +1,4 @@
---创建并且切换分支
+﻿--创建并且切换分支
 git checkout -b +branchName
 --创建分支
 git branch +branchName
@@ -28,3 +28,5 @@ git stash list
 git branch -D +branchName
 --查看远程分支
 git remote -v
+
+--创建分支必须主干分支要有至少一个commit 项目
