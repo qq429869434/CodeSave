@@ -1,5 +1,0 @@
-Windows下打开Git Bash，创建SSH Key，按提示输入密码，可以不填密码一路回车
-  ssh-keygen -t rsa -C "注册邮箱"
-获取key，打开.ssh下的id_rsa.pub文件，里面的内容就是key的内容
-  $ start ~/.ssh/id_rsa.pub
-  
