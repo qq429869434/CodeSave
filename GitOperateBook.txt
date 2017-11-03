@@ -1,0 +1,23 @@
+//使用git 遇到的一些问题
+//删除git master 回到git init 之前的状态
+rm -rf .git
+//如果还存在master 分支，先创建分支，切换分支，删除分支
+git branch dev 
+git checkout dev
+git branch -D (强制删除) master
+//远程分支和本地分支的版本不一致
+git pull remote master  //拉齐版本
+//情况1：
+	本地分支提交了一个版本向远程分支。在远程分支删除了这个提交。造成版本不一致。
+	git pull 的时候，本地分支会回滚到本地提交前的状态（删除掉这个文件），拉起版本
+	具体操作：
+		rm -rf file
+		git commit -m delete filename
+	情况2：
+	远程分支比本地分支多一个版本：
+	从远程仓库上拉下来文件，以拉起版本
+	//同步删除对应gitHub 里面的文件
+	git add -A
+	git status
+	git commit
+
