@@ -1,0 +1,9 @@
+--创建GIT 远程仓库
+ git remote add origin +仓库地址 （github 会提供）
+ --删除远程仓库
+ git remote rm origin
+ --把本地分支的文件推送到远程仓库中
+ （1）第一次推送分支：
+	 git push -u origin(远程分支名称) master(本地分支名称，master为基线版本)
+--从远程仓库下载代码
+git clone +地址
